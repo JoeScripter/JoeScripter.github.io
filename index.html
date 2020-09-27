@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cz">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hledání her</title>
+
+        <meta name="description" content="Stránka pro hledání PC her">
+        <meta name="keywords" content="hra, PC hra, vyhledávání">
+        <meta name="author" content="Jan Mrógala">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="centerContent" class="center">
+            <h1>Vyhledávání PC her</h1>
+            <h2>Vítejte, užijte si vyhledávání</h2>
+
+            <form id="hledej">
+                <label>
+                    <input type="text" placeholder="Název hry">
+                </label>
+                <button type="submit" class="pure-button pure-button-primary">Hledej</button>
+            </form>
+
+            <div id="images">
+                <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/ut/gaming/pc-ut-hero-mario-35.jpg"
+                     alt="Super Mario">
+                <img src="https://store-images.s-microsoft.com/image/apps.28990.69531514236615003.8f0d03d6-6311-4c21-a151-834503c2901a.d629260e-2bc4-4588-950c-f278cbc22a64"
+                     alt="The Witcher">
+                <img src="https://s3.gaming-cdn.com/images/products/4889/orig/assassins-creed-brotherhood-deluxe-edition-cover.jpg"
+                     alt="Assassins creed">
+            </div>
+
+            <h3>Náhodná PC hra:</h3>
+            <a href="https://en.wikipedia.org/wiki/Amnesia:_The_Dark_Descent" target="_blank">Amnesia: The Dark Descent</a><br>
+
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/62/Amnesia-The-Dark-Descent-Cover-Art.png" alt="Amnesia"
+                 style="padding-top: 5px;">
+
+            <section id="text1">
+                <p>Tato stránka disponuje velkým archivem různých her následujících žánrů:</p>
+                <ul>
+                    <li>Akční</li>
+                    <li>Akční-adventura</li>
+                    <li>Adventura</li>
+                    <li>RPG</li>
+                    <li>Simulace</li>
+                    <li>Strategie</li>
+                    <li>Sportovní</li>
+                    <li>MMO</li>
+                    <li>Sandbox</li>
+                </ul>
+            </section>
+
+            <section id="gameTable">
+                <table id="t01" class="center">
+                    <caption>tabulka nejvyhledávanějších:</caption>
+                    <tr>
+                        <th>strategie</th>
+                        <th>FPS</th>
+                        <th>adventura</th>
+                        <th>RPG</th>
+                    </tr>
+                    <tr>
+                        <td>Warcraft III</td>
+                        <td>Counter strike 1.6</td>
+                        <td>Monkey Island</td>
+                        <td>Baldur's Gate</td>
+                    </tr>
+                    <tr>
+                        <td>Age Of Empires II</td>
+                        <td>Half-Life</td>
+                        <td>Disco Elysium</td>
+                        <td>Mount And Blade</td>
+                    </tr>
+                    <tr>
+                        <td>Stronghold Crusader</td>
+                        <td>Quake</td>
+                        <td>Day of the Tentacle</td>
+                        <td>Vampire: The Masquerade</td>
+                    </tr>
+                    <tr>
+                        <td>Stellaris</td>
+                        <td>Team Fortress II</td>
+                        <td>King's Quest</td>
+                        <td>Oblivion</td>
+                    </tr>
+                    <tr>
+                        <td>Spellforce</td>
+                        <td>Overwatch</td>
+                        <td>Quest For Glory I</td>
+                        <td>Gothic III</td>
+                    </tr>
+                </table>
+            </section>
+
+            <form id="newsletter">
+                <fieldset>
+                    <legend>Newsletter registrace</legend>
+                    <label>
+                        <input type="text" placeholder="Nickname" />
+                    </label>
+                    <label>
+                        <input type="email" placeholder="Email" />
+                    </label>
+                    <label>
+                        <input type="date" placeholder="Datum narození" />
+                    </label>
+                    <button type="submit" class="pure-button pure-button-primary">Potvrď</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
